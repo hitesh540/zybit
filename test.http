@@ -1,0 +1,43 @@
+POST http://localhost:5001/user/update_user
+Content-Type: application/json
+
+{
+   
+     "_id" : "605635f40387c7082ea0e6a0",
+     "phone":"99999999999999"
+    
+}
+
+
+# POST http://localhost:5001/user/register
+# Content-Type: application/json
+
+# {
+   
+#      "username" : "ancey",
+#      "password":"123456",
+#      "role":"user",
+#      "email":"ben@gmail.com",
+#      "phone":"9999999999"
+
+    
+# }
+# POST http://localhost:5001/user/profile
+# Content-Type: application/json
+
+# {
+   
+#      "id" : "605635f40387c7082ea0e6a0"
+    
+    
+# }
+
+# POST http://localhost:5001/user/login
+# Content-Type: application/json
+
+# {
+    
+#      "username" : "ancey",
+#     "password":"123456"
+    
+# }
